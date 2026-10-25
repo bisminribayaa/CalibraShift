@@ -1,0 +1,49 @@
+model,test_condition,calibration,metric,single_split,cv_mean,cv_std
+Logistic Regression,In-distribution,Sigmoid calibrated,accuracy,0.965034965034965,0.9753868446928531,0.017022591887474403
+Logistic Regression,In-distribution,Uncalibrated,accuracy,0.965034965034965,0.9759716400144905,0.013094183151912065
+Logistic Regression,Synthetic feature shift,Sigmoid calibrated,accuracy,0.8951048951048951,0.8775604202246028,0.03302242299272997
+Logistic Regression,Synthetic feature shift,Uncalibrated,accuracy,0.8881118881118881,0.8541375562800807,0.02869506554127322
+Random Forest,In-distribution,Sigmoid calibrated,accuracy,0.972027972027972,0.9537183667132433,0.019759875171828825
+Random Forest,In-distribution,Uncalibrated,accuracy,0.965034965034965,0.9578119339647053,0.020523763854549286
+Random Forest,Synthetic feature shift,Sigmoid calibrated,accuracy,0.9020979020979021,0.8716814159292035,0.03798933509910962
+Random Forest,Synthetic feature shift,Uncalibrated,accuracy,0.9020979020979021,0.8734461522537909,0.04172516304734289
+Logistic Regression,In-distribution,Sigmoid calibrated,balanced_accuracy,0.9528301886792453,0.9683020820877029,0.021620813805299
+Logistic Regression,In-distribution,Uncalibrated,balanced_accuracy,0.9567085953878407,0.970949556078937,0.01758691004471537
+Logistic Regression,Synthetic feature shift,Sigmoid calibrated,balanced_accuracy,0.9166666666666667,0.9014727252403308,0.025919920105979374
+Logistic Regression,Synthetic feature shift,Uncalibrated,balanced_accuracy,0.9111111111111111,0.8828042328042328,0.022154290370087842
+Random Forest,In-distribution,Sigmoid calibrated,balanced_accuracy,0.9622641509433962,0.9487587237464407,0.024786098935159765
+Random Forest,In-distribution,Uncalibrated,balanced_accuracy,0.9528301886792453,0.9530349625747595,0.025522053677128207
+Random Forest,Synthetic feature shift,Sigmoid calibrated,balanced_accuracy,0.9222222222222223,0.8948925681565708,0.03018430051812515
+Random Forest,Synthetic feature shift,Uncalibrated,balanced_accuracy,0.9222222222222223,0.8963075394659084,0.033003939485348695
+Logistic Regression,In-distribution,Sigmoid calibrated,brier_score,0.029496640583841386,0.024406235003503637,0.006166229749975313
+Logistic Regression,In-distribution,Uncalibrated,brier_score,0.02244056563937386,0.020431006263430085,0.007065138050744071
+Logistic Regression,Synthetic feature shift,Sigmoid calibrated,brier_score,0.06469144835580351,0.08297096092847903,0.01741070598597447
+Logistic Regression,Synthetic feature shift,Uncalibrated,brier_score,0.08720259661923177,0.10899958579042673,0.022686938791903834
+Random Forest,In-distribution,Sigmoid calibrated,brier_score,0.029169307162103506,0.03142854702287643,0.01196069270715728
+Random Forest,In-distribution,Uncalibrated,brier_score,0.03075808973095051,0.03285424132356345,0.00940768812691544
+Random Forest,Synthetic feature shift,Sigmoid calibrated,brier_score,0.07861508456499618,0.10532802814856687,0.031132584378360913
+Random Forest,Synthetic feature shift,Uncalibrated,brier_score,0.07262012263165503,0.09929967334146135,0.025641903375415262
+Logistic Regression,In-distribution,Sigmoid calibrated,ece_10_bins,0.05872088500120862,0.051777276914462704,0.008470609416887832
+Logistic Regression,In-distribution,Uncalibrated,ece_10_bins,0.02466113893459867,0.03173193429969565,0.0073487828354571495
+Logistic Regression,Synthetic feature shift,Sigmoid calibrated,ece_10_bins,0.14012584470691453,0.15382898854511765,0.022873278731698934
+Logistic Regression,Synthetic feature shift,Uncalibrated,ece_10_bins,0.13583233931964148,0.15950332523181612,0.02684905691517015
+Random Forest,In-distribution,Sigmoid calibrated,ece_10_bins,0.05560406533610189,0.05107264195336396,0.012144809024248917
+Random Forest,In-distribution,Uncalibrated,ece_10_bins,0.050170042920042894,0.05220387983095507,0.013312202653903003
+Random Forest,Synthetic feature shift,Sigmoid calibrated,ece_10_bins,0.12036890185012922,0.1371657786577683,0.03418348930867938
+Random Forest,Synthetic feature shift,Uncalibrated,ece_10_bins,0.13214200614200616,0.15073994225704107,0.031166930810070475
+Logistic Regression,In-distribution,Sigmoid calibrated,log_loss,0.11313801896206022,0.09829085423693688,0.019306256544726536
+Logistic Regression,In-distribution,Uncalibrated,log_loss,0.07758961043063582,0.07860350296401716,0.029444981873007564
+Logistic Regression,Synthetic feature shift,Sigmoid calibrated,log_loss,0.21432377549523848,0.2540628275135804,0.04463502154110802
+Logistic Regression,Synthetic feature shift,Uncalibrated,log_loss,0.2710420884482732,0.3466993301189738,0.07709448893041825
+Random Forest,In-distribution,Sigmoid calibrated,log_loss,0.11558470648165088,0.116995432495191,0.03389569329677769
+Random Forest,In-distribution,Uncalibrated,log_loss,0.10995698116761038,0.13491257002640894,0.057229592366590275
+Random Forest,Synthetic feature shift,Sigmoid calibrated,log_loss,0.2652690891945236,0.36457802034056314,0.10322004464777762
+Random Forest,Synthetic feature shift,Uncalibrated,log_loss,0.23321901189084213,0.3237459776290485,0.07984728627840987
+Logistic Regression,In-distribution,Sigmoid calibrated,roc_auc,0.9968553459119497,0.9952597367148628,0.004799342102401898
+Logistic Regression,In-distribution,Uncalibrated,roc_auc,0.9962264150943396,0.9946430015637898,0.004930569801250997
+Logistic Regression,Synthetic feature shift,Sigmoid calibrated,roc_auc,0.9968553459119497,0.9947547905867591,0.004767373584007472
+Logistic Regression,Synthetic feature shift,Uncalibrated,roc_auc,0.9962264150943396,0.9946430015637898,0.004930569801250997
+Random Forest,In-distribution,Sigmoid calibrated,roc_auc,0.9955974842767297,0.9908605306833825,0.007351331809891317
+Random Forest,In-distribution,Uncalibrated,roc_auc,0.9958071278825996,0.9901510195251324,0.009273614602352577
+Random Forest,Synthetic feature shift,Sigmoid calibrated,roc_auc,0.9987421383647799,0.987286740829704,0.006467889275048288
+Random Forest,Synthetic feature shift,Uncalibrated,roc_auc,0.9985324947589098,0.9869947361458443,0.006551647228422166

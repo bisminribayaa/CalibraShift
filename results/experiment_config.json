@@ -1,0 +1,25 @@
+{
+  "dataset": "Breast Cancer Wisconsin Diagnostic (scikit-learn built-in)",
+  "random_state": 42,
+  "n_total": 569,
+  "n_train": 426,
+  "n_test": 143,
+  "shift_strength_std_units": 0.35,
+  "models": [
+    "Logistic Regression",
+    "Random Forest"
+  ],
+  "calibration_methods": [
+    "Uncalibrated",
+    "Sigmoid calibrated"
+  ],
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy",
+    "roc_auc",
+    "brier_score",
+    "log_loss",
+    "ece_10_bins"
+  ],
+  "note": "Synthetic test-only feature shift; exploratory results, not a clinical evaluation."
+}
